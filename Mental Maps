@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T14:29:25.481Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 OPR/89.0.4447.104" etag="EN_qoxqpzRGXGnToHnyC" version="20.2.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-08-31T14:36:25.255Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 OPR/89.0.4447.104" etag="FHhKpO6yR--gEPJuYE45" version="20.2.7" type="github" pages="6">
   <diagram id="B2Y87t7fA9c-izsPBwqR" name="Time Series">
     <mxGraphModel dx="831" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -933,8 +933,38 @@
         <mxCell id="4u-sXu2oj_bzHZUFNQaj-80" value="Pipelines and Column Transformers" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="700" y="2310" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="4u-sXu2oj_bzHZUFNQaj-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=10;" edge="1" parent="1" source="4u-sXu2oj_bzHZUFNQaj-83" target="4u-sXu2oj_bzHZUFNQaj-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="4u-sXu2oj_bzHZUFNQaj-83" value="C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2700" width="50" height="50" as="geometry" />
+          <mxGeometry x="40" y="2755" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4u-sXu2oj_bzHZUFNQaj-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=10;" edge="1" parent="1" source="4u-sXu2oj_bzHZUFNQaj-85" target="4u-sXu2oj_bzHZUFNQaj-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4u-sXu2oj_bzHZUFNQaj-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=10;" edge="1" parent="1" source="4u-sXu2oj_bzHZUFNQaj-85" target="4u-sXu2oj_bzHZUFNQaj-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4u-sXu2oj_bzHZUFNQaj-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=10;" edge="1" parent="1" source="4u-sXu2oj_bzHZUFNQaj-85" target="4u-sXu2oj_bzHZUFNQaj-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4u-sXu2oj_bzHZUFNQaj-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=10;" edge="1" parent="1" source="4u-sXu2oj_bzHZUFNQaj-85" target="4u-sXu2oj_bzHZUFNQaj-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4u-sXu2oj_bzHZUFNQaj-85" value="Feature Engineering" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="180" y="2750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4u-sXu2oj_bzHZUFNQaj-88" value="Create New Features (Combining)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="490" y="2590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4u-sXu2oj_bzHZUFNQaj-89" value="Mutual Information (MI)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="490" y="2700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4u-sXu2oj_bzHZUFNQaj-90" value="K-Means Clustering" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="490" y="2810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4u-sXu2oj_bzHZUFNQaj-91" value="Principal Component Analysis (PCA)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="490" y="2940" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
