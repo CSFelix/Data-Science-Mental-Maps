@@ -1,4 +1,4 @@
-### 👋 Data Sciencec MMental Maps 👋
+### 👋 Data Sciencec Mental Maps 👋
 
 > **Mental Maps about some topics and process in Data Science.**
 
